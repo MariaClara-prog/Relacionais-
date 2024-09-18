@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+
+Var
+// Seção de Declarações das variáveis
+    a, b : inteiro
+    resposta : logico
+
+    
+Inicio
+//Atribuir valores ás variáveis
+  a <- 5
+  b <- 3
+  
+//testes
+  resposta <- a = b
+  escreval("A = B? ", resposta)
+  resposta <- a < b
+  escreval("A < B? ", resposta)
+  resposta <- a > b
+  escreval("A > B? ", resposta)
+  resposta <- a <= b
+  escreval("A <= B? ", resposta)
+  resposta <- a >= b
+  escreval("A >= B? ", resposta)
+  resposta <- a <> b
+  escreval("A <> B? ", resposta)
+
+
+
+
+Fimalgoritmo
